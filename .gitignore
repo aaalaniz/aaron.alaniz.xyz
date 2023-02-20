@@ -1,0 +1,6 @@
+# Mac files
+.DS_Store
+
+# Ghost theme
+theme/node_modules
+theme/dist
