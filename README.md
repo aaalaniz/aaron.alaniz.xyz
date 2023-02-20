@@ -1,2 +1,1 @@
-# aaron.alaniz.xyz
-My personal website
+A project that hosts the [Ghost](https://ghost.org/) theme for my website at [aaron.alaniz.xyz](https://aaron.alaniz.xzy).  In addition, the project contains the posts as raw markdown files. The project is used to manage and deploy the theme and ask for post feedback by way of Github pull requests before publishing.
