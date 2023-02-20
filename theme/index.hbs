@@ -1,0 +1,12 @@
+{{!< default}}
+
+<main class="site-main">
+    <a rel="me" href="https://androiddev.social/@aalaniz"></a>
+    <div class="post-feed gh-feed gh-canvas">
+        {{#foreach posts}}
+            {{> "loop"}}
+        {{/foreach}}
+    </div>
+
+    {{pagination}}
+</main>
