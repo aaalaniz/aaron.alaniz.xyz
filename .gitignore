@@ -4,3 +4,6 @@
 # Ghost theme
 theme/node_modules
 theme/dist
+
+# Obsidian
+.obsidian
