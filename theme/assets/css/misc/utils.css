@@ -39,3 +39,22 @@
     height: 100%;
     object-fit: cover;
 }
+
+/* Koenig Editor Styles */
+.kg-width-wide {
+    position: relative;
+    width: 85vw;
+    min-width: 100%;
+    margin-left: calc(50% - 42.5vw);
+    margin-right: calc(50% - 42.5vw);
+    transform: translateX(calc(50vw - 50%));
+}
+
+.kg-width-full {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
