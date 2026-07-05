@@ -1,0 +1,27 @@
+name: Test Theme
+
+on:
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm ci
+        working-directory: theme
+        
+      - name: Build theme
+        run: npm run zip
+        working-directory: theme
+        
+      - name: Run Gscan tests
+        run: npm test
+        working-directory: theme
